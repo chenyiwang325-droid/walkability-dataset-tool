@@ -1,0 +1,8 @@
+[
+  {
+    "id": "028095c2-866c-440f-b616-cda17e4c3bf7",
+    "command": "CUDA_VISIBLE_DEVICES=0,1 swift infer \\\n--model autodl-tmp/qwen3_vl_32b \\\n--model_type qwen3_vl \\\n--val_dataset autodl-tmp/1217_pleasurability_pics200/1217_训练集转换_final_training_dataset_test.json \\\n--infer_backend vllm \\\n--vllm_tensor_parallel_size 2 \\\n--stream False",
+    "created_at": "2025-12-28 18:18:06",
+    "updated_at": "2025-12-28 18:18:38"
+  }
+]
